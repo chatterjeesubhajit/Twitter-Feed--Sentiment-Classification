@@ -1,0 +1,13 @@
+[debug] > Exec({file:/C:/Users/being/IdeaProjects/Tweets/}tweets/package, None, None)
+[debug] Evaluating tasks: Compile / package
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\being\IdeaProjects\Tweets\target\scala-2.11\classes ...
+[info] done compiling
+[success] Total time: 12 s, completed Oct 22, 2020 11:34:25 PM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

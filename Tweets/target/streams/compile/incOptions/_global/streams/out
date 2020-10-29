@@ -1,0 +1,23 @@
+[debug] Created transactional ClassFileManager with tempDir = C:\Users\being\IdeaProjects\Tweets\target\scala-2.11\classes.bak
+[debug] About to delete class files:
+[debug] 	Tweets$$typecreator4$1.class
+[debug] 	Tweets$$typecreator5$1.class
+[debug] 	Tweets$$anonfun$1.class
+[debug] 	Tweets$.class
+[debug] 	Tweets$$anonfun$2.class
+[debug] 	Tweets.class
+[debug] We backup class files:
+[debug] 	Tweets$$typecreator4$1.class
+[debug] 	Tweets$$typecreator5$1.class
+[debug] 	Tweets$$anonfun$1.class
+[debug] 	Tweets$.class
+[debug] 	Tweets$$anonfun$2.class
+[debug] 	Tweets.class
+[debug] Registering generated classes:
+[debug] 	Tweets$$typecreator4$1.class
+[debug] 	Tweets$$typecreator5$1.class
+[debug] 	Tweets$$anonfun$1.class
+[debug] 	Tweets$.class
+[debug] 	Tweets$$anonfun$2.class
+[debug] 	Tweets.class
+[debug] Removing the temporary directory used for backing up class files: C:\Users\being\IdeaProjects\Tweets\target\scala-2.11\classes.bak

@@ -1,0 +1,15 @@
+[debug] Packaging C:\Users\being\IdeaProjects\Tweets\target\scala-2.11\tweets_2.11-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	Tweets$$anonfun$1.class
+[debug] 	  C:\Users\being\IdeaProjects\Tweets\target\scala-2.11\classes\Tweets$$anonfun$1.class
+[debug] 	Tweets$$anonfun$2.class
+[debug] 	  C:\Users\being\IdeaProjects\Tweets\target\scala-2.11\classes\Tweets$$anonfun$2.class
+[debug] 	Tweets$$typecreator4$1.class
+[debug] 	  C:\Users\being\IdeaProjects\Tweets\target\scala-2.11\classes\Tweets$$typecreator4$1.class
+[debug] 	Tweets$$typecreator5$1.class
+[debug] 	  C:\Users\being\IdeaProjects\Tweets\target\scala-2.11\classes\Tweets$$typecreator5$1.class
+[debug] 	Tweets$.class
+[debug] 	  C:\Users\being\IdeaProjects\Tweets\target\scala-2.11\classes\Tweets$.class
+[debug] 	Tweets.class
+[debug] 	  C:\Users\being\IdeaProjects\Tweets\target\scala-2.11\classes\Tweets.class
+[debug] Done packaging.

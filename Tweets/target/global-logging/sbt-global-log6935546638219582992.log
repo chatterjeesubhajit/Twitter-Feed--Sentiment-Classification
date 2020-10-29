@@ -1,0 +1,103 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\being\AppData\Local\Temp\idea6.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\being\AppData\Local\Temp\idea6.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.1 (Amazon.com Inc. Java 1.8.0_265)
+[debug]       Load.loadUnit: plugins took 110.9111ms
+[debug]       Load.loadUnit: defsScala took 0.4879ms
+[debug] [Loading] Scanning directory C:\Users\being\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\being\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 31.9409 ms
+[debug]           Load.resolveProject(global-plugins) took 44.8394ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\being\.sbt\1.0\plugins, plugins: List(<none>))) took 293.3964ms
+[debug] [Loading] Done in C:\Users\being\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 326.8038ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.2439ms
+[debug]     Load.loadUnit(file:/C:/Users/being/.sbt/1.0/plugins/, ...) took 447.806ms
+[debug]   Load.apply: load took 608.7725ms
+[debug]   Load.apply: resolveProjects took 6.5913ms
+[debug]   Load.apply: finalTransforms took 53.0372ms
+[debug]   Load.apply: config.delegates took 7.4313ms
+[debug]   Load.apply: Def.make(settings)... took 667.4661ms
+[debug]   Load.apply: structureIndex took 98.2246ms
+[debug]   Load.apply: mkStreams took 1.9737ms
+[info] loading global plugins from C:\Users\being\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 2904.1249ms
+[debug]           Load.loadUnit: plugins took 26.0331ms
+[debug]           Load.loadUnit: defsScala took 0.0043ms
+[debug] [Loading] Scanning directory C:\Users\being\IdeaProjects\Tweets\project
+[debug]             Load.loadUnit: mkEval took 7.8054ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\being\IdeaProjects\Tweets\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.6147 ms
+[info] loading settings for project tweets-build from idea6.sbt ...
+[debug]               Load.resolveProject(tweets-build) took 2.9506ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id tweets-build, base: C:\Users\being\IdeaProjects\Tweets\project, plugins: List(<none>))) took 5.0331ms
+[debug] [Loading] Done in C:\Users\being\IdeaProjects\Tweets\project, returning: (tweets-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 146.5801ms
+[debug]           Load.loadUnit: cleanEvalClasses took 4.1841ms
+[debug]         Load.loadUnit(file:/C:/Users/being/IdeaProjects/Tweets/project/, ...) took 177.7142ms
+[debug]       Load.apply: load took 179.3339ms
+[debug]       Load.apply: resolveProjects took 0.1327ms
+[debug]       Load.apply: finalTransforms took 10.1161ms
+[debug]       Load.apply: config.delegates took 0.3848ms
+[debug]       Load.apply: Def.make(settings)... took 93.3189ms
+[debug]       Load.apply: structureIndex took 37.4104ms
+[debug]       Load.apply: mkStreams took 0.0035ms
+[info] loading project definition from C:\Users\being\IdeaProjects\Tweets\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 3639.5493ms
+[debug]     Load.loadUnit: defsScala took 0.0035ms
+[debug] [Loading] Scanning directory C:\Users\being\IdeaProjects\Tweets
+[debug]       Load.loadUnit: mkEval took 0.319ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\being\IdeaProjects\Tweets, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))), Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.8685 ms
+[info] loading settings for project tweets from build.sbt ...
+[debug]         Load.resolveProject(tweets) took 45.0885ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id tweets, base: C:\Users\being\IdeaProjects\Tweets, plugins: List(<none>))) took 49.6112ms
+[debug] [Loading] Done in C:\Users\being\IdeaProjects\Tweets, returning: (tweets)
+[debug]     Load.loadUnit: loadedProjectsRaw took 5634.4807ms
+[debug]     Load.loadUnit: cleanEvalClasses took 11.7301ms
+[debug]   Load.loadUnit(file:/C:/Users/being/IdeaProjects/Tweets/, ...) took 9286.3767ms
+[debug] Load.apply: load took 9287.8978ms
+[debug] Load.apply: resolveProjects took 0.102ms
+[debug] Load.apply: finalTransforms took 25.5172ms
+[debug] Load.apply: config.delegates took 0.301ms
+[debug] Load.apply: Def.make(settings)... took 77.6143ms
+[debug] Load.apply: structureIndex took 23.0932ms
+[debug] Load.apply: mkStreams took 0.0024ms
+[info] set current project to Tweets (in build file:/C:/Users/being/IdeaProjects/Tweets/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 51042 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 51042, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to Tweets (in build file:/C:/Users/being/IdeaProjects/Tweets/)
+[debug] > Exec(idea-shell, None, None)
